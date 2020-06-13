@@ -1,0 +1,17 @@
+Maven - Many users are there.
+
+commons use
+ 1.Build tool
+ 2. Project Management Tool
+ 
+ Common problems in Development.
+ 1. Multiple jars are required  during compile time, should available during distribution 
+   some may missed. etc
+ 2. Dependencies and version
+   some jar are having dependency jars - all dependency jars should be available.
+   version - due to dependency , sometimes we required exact verion of depedent jars.
+ 3. Projct structure - folder structure such  as web inf etc
+ 4. Building , publishing and deploying 
+
+
+  
