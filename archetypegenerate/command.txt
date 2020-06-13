@@ -1,0 +1,66 @@
+mvn archetype:generate
+
+	Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 1615:
+	Choose org.apache.maven.archetypes:maven-archetype-quickstart version:
+	1: 1.0-alpha-1
+	2: 1.0-alpha-2
+	3: 1.0-alpha-3
+	4: 1.0-alpha-4
+	5: 1.0
+	6: 1.1
+	7: 1.3
+	8: 1.4
+	Choose a number: 8: 5
+	Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.0/maven-archetype-quickstart-1.0.pom
+	Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.0/maven-archetype-quickstart-1.0.pom (703 B at 506 B/s)
+	Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/2/maven-archetype-bundles-2.pom
+	Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/2/maven-archetype-bundles-2.pom (1.5 kB at 1.9 kB/s)
+	Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype-parent/1/maven-archetype-parent-1.pom
+	Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype-parent/1/maven-archetype-parent-1.pom (1.3 kB at 1.5 kB/s)
+	Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+	Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom (10.0 kB at 12 kB/s)
+	Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.0/maven-archetype-quickstart-1.0.jar
+	Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.0/maven-archetype-quickstart-1.0.jar (4.3 kB at 5.2 kB/s)
+	Define value for property 'groupId': com.linsoft
+	Define value for property 'artifactId': maventestproject
+	Define value for property 'version' 1.0-SNAPSHOT: :
+	Define value for property 'package' com.linsoft: :
+	Confirm properties configuration:
+	groupId: com.linsoft
+	artifactId: maventestproject
+	version: 1.0-SNAPSHOT
+	package: com.linsoft
+	 Y: : y
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: ----------------------------------------------------------------------------
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.0
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: ----------------------------------------------------------------------------
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: Parameter: basedir, Value: D:\PERSONAL\gitmaven\maven-learning\archetypegenerate
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: Parameter: package, Value: com.linsoft
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: Parameter: groupId, Value: com.linsoft
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: Parameter: artifactId, Value: maventestproject
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: Parameter: packageName, Value: com.linsoft
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: Parameter: version, Value: 1.0-SNAPSHOT
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.logging.Slf4jLogger info
+	INFO: project created from Old (1.x) Archetype in dir: D:\PERSONAL\gitmaven\maven-learning\archetypegenerate\maventestproject
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.event.ExecutionEventLogger infoMain
+	INFO: ------------------------------------------------------------------------
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.event.ExecutionEventLogger logResult
+	INFO: BUILD SUCCESS
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.event.ExecutionEventLogger infoMain
+	INFO: ------------------------------------------------------------------------
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.event.ExecutionEventLogger logStats
+	INFO: Total time:  04:46 min
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.event.ExecutionEventLogger logStats
+	INFO: Finished at: 2020-06-13T23:45:14+05:30
+	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.event.ExecutionEventLogger infoMain
+	INFO: ------------------------------------------------------------------------
+
