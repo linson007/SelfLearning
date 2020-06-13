@@ -14,4 +14,14 @@ commons use
  4. Building , publishing and deploying 
 
 
-  
+
+
+Env -setup
+ 
+M2_HOME - 
+PATH - 
+
+
+version 
+
+mvn --version
