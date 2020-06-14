@@ -78,3 +78,19 @@ mvn package
 
 java -cp target/maventestproject-1.0-SNAPSHOT.jar com.linsoft.App
 Hello World!
+
+
+>mvn clean
+clean the target folder
+
+
+------Maven Build
+compile->test->package->install
+
+>mvn compile
+>mvn test      ( automatically do compile)
+>mvn package   (automatically do compile,test) 
+>mvn install
+
+>mvn clean  
+used to clean the target / previous compiled outputs

@@ -25,5 +25,26 @@ PATH -
 version 
 mvn --version
 
+-------------------------------------------
+
+Maven Build
+
+have build lifecycle
+build lifecycle have different phases
+ such as compile,test,package etc.
+Specify the build phase we need. Previous phases automatically executed.
+
+Some phases
+1.validate  --> everything is in order such as pom file ,folder structure etc.
+2.compile --> compile and generate class files.
+3.test ---> running test cases
+4.package --> package the codes  - .jar / war / ear
+5.install ---> add the build jar/artifact to local maven repo. ( This can be added as dependency for other project as well)
+6.deploy --> add the build jar/artificat to remote maven repo. 
+
+
+ 
+mvn clean
+used to clean the target / previous compiled outputs
 
 
