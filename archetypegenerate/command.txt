@@ -64,3 +64,17 @@ mvn archetype:generate
 	Jun 13, 2020 11:45:14 PM org.apache.maven.cli.event.ExecutionEventLogger infoMain
 	INFO: ------------------------------------------------------------------------
 
+
+cd to pom file directory
+>cd maventestproject
+
+>mvn compile
+//download all the dependency and compile every classes
+
+mvn package
+//to package the project   --- package to jar file
+//build and running the test cases
+
+
+java -cp target/maventestproject-1.0-SNAPSHOT.jar com.linsoft.App
+Hello World!
